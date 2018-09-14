@@ -1,0 +1,84 @@
+body {
+  background-image: url(darkness.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(49, 245, 42);
+}
+h2 {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(49, 245, 42);
+  border: solid rgb(49, 245, 42);
+  width: 200px;
+  padding: 10px;
+}
+h2:hover {
+  color: rgb(191, 255, 117);
+}
+h3 {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(49, 245, 42);
+  margin: 0;
+  margin-bottom: 20px;
+  animation: blinker 1s linear infinite;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+#name {
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: blinker 2s linear infinite;
+}
+#links {
+  margin-left: 300px;
+  width: 300px;
+}
+#greetings {
+  margin-top: 200px;
+}
+img {
+  border-radius: 50%;
+  margin: 30px;
+}
+#aboutme {
+  margin-left: 40%;
+  margin-top: 50px;
+}
+ul {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(49, 245, 42);
+}
+li {
+  margin: 20px;
+}
+#socialbox {
+  width: 1000px;
+  margin-left: 240px;
+  margin-top: 250px;
+}
+#s.column {
+  width: 300px;
+  margin: 0;
+}
+.st {
+  text-align: center;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#title {
+  width: 500px;
+  margin: 0;
+  margin-left: 450px;
+}
